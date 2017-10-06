@@ -50,4 +50,36 @@ section.callaction {
   border-radius: 10px;
   transition: 2s; }
 
+#contact-btn{
+  color: #069a06;
+  font-size: 2em;
+  border: 3px solid #069a06;
+  padding: 15px;
+  line-height: 100%;
+  vertical-align: middle;
+  border-radius: 4px;
+  width: max-content;
+  transition: 2s;
+}
+
+#contact-btn:hover{
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  background-color: #069a06;
+  border-radius: 8px;
+  transition: 2s;
+}
+
+#contact-btn a{
+  text-decoration: none;
+  color: #069a06;
+  
+} 
+
+#contact-btn a:hover{
+  text-decoration: none;
+  color: white;
+}
+
 /*# sourceMappingURL=custom.css.map */
