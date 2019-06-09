@@ -1,3 +1,8 @@
+.mainNav{
+  position: fixed;
+  background-color: white !important;
+  border-bottom: 3px solid $primary-color;
+}
 nav {
   &.nav-extended {
     height: auto;
@@ -12,11 +17,7 @@ nav {
       line-height: normal;
     }
   }
-  .mainNav{
-    position: fixed;
-    background-color: white !important;
-    border-bottom: 3px solid $primary-color;
-  }
+  
   color: $navbar-font-color;
   @extend .z-depth-1;
   background-color: $primary-color;
