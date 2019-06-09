@@ -1,0 +1,55 @@
+HTTrack3.48-21 launched on Fri, 06 Oct 2017 11:44:16 at http://localhost:8000 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://localhost:8000 -O "/home/utsargo/websites/locosbd" -n -%P -N0 -s0 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:46:24	Warning: 	HTML file (9524 bytes) retransferred due to lack of cache: localhost:8000/blog/feeds/rss/
+11:46:24	Warning: 	HTML file (10136 bytes) retransferred due to lack of cache: localhost:8000/blog/feeds/atom/
+11:46:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/mezzanine/js/jquery-1.8.3.min.js
+11:46:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/bootstrap.js
+11:46:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/bootstrap-extras.js
+11:46:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/img/Logo.jpg
+11:46:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/img/slides/slide-1-farmers-led.JPG
+11:46:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/img/slides/slide-2-organic-pesticide.JPG
+11:46:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/img/slides/slide-4-medicinal-plants.JPG
+11:46:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/jquery.easing.1.3.js
+11:46:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/jquery.fancybox-media.js
+11:46:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/jquery.fancybox.pack.js
+11:46:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://use.fontawesome.com/d292af0a66.js
+11:46:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/google-code-prettify/prettify.js
+11:46:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/portfolio/jquery.quicksand.js
+11:46:39	Warning: 	HTML file (8437 bytes) retransferred due to lack of cache: localhost:8000/about-us/
+11:46:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/portfolio/setting.js
+11:46:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/jquery.flexslider.js
+11:46:41	Warning: 	HTML file (6878 bytes) retransferred due to lack of cache: localhost:8000/developer/
+11:46:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/animate.js
+11:46:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/js/custom.js
+11:46:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/media/uploads/কৃষাণী_শান্তিলতা_সরকার_সবজী_ক্ষেত_পরিচর্যা_করছেন.jpg
+11:46:42	Warning: 	HTML file (15477 bytes) retransferred due to lack of cache: localhost:8000/blog/women-entrepreneurship-development/
+11:46:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/media/uploads/ধান_ক্ষেতে_মাছ_চাষ-2.jpg
+11:46:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/media/uploads/মার_প্রকল্প-2.jpg
+11:46:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/media/uploads/কৃষক_নেতৃত্বে_ধানজাত_গবেষণা_প্লট.jpg
+11:46:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/media/uploads/pp-square.jpg
+11:46:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/glyphicons-halflings-regular.eot
+11:46:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/glyphicons-halflings-regular.woff
+11:46:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/glyphicons-halflings-regular.ttf
+11:46:45	Warning: 	HTML file (17899 bytes) retransferred due to lack of cache: localhost:8000/blog/author/utsargo/
+11:46:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/css/fancybox/fancybox_sprite.png
+11:46:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/css/fancybox/fancybox_loading.gif
+11:46:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/css/fancybox/fancybox_overlay.png
+11:46:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/img/bg_direction_nav.png
+11:46:47	Warning: 	HTML file (15465 bytes) retransferred due to lack of cache: localhost:8000/blog/up-scaling-managed-aquifer-recharge-for-providing-community-water-supply-in-saline-areas/
+11:46:48	Warning: 	HTML file (16166 bytes) retransferred due to lack of cache: localhost:8000/blog/farmers-led-agricultural-development-program/
+11:46:48	Warning: 	HTML file (18177 bytes) retransferred due to lack of cache: localhost:8000/blog/category/projects/?page=1
+11:46:49	Warning: 	HTML file (16386 bytes) retransferred due to lack of cache: localhost:8000/blog/action-for-the-participatory-and-comprehensive-disaster-risk-reduction-apcdrr/
+11:46:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/fontawesome-webfont.eot?v=4.0.3
+11:47:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/fontawesome-webfont.eot?
+11:47:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/fontawesome-webfont.woff?v=4.0.3
+11:47:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/customicon/Icons.eot
+11:47:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8000/static/fonts/customicon/Icons.ttf
+
+HTTrack Website Copier/3.48-21 mirror complete in 2 minutes 51 seconds : 76 links scanned, 120 files written (7834064 bytes overall) [4721706 bytes received at 27612 bytes/sec], 24282 bytes transferred using HTTP compression in 3 files, ratio 41%
+(No errors, 44 warnings, 0 messages)
