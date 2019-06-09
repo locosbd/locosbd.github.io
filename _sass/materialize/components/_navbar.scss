@@ -62,7 +62,11 @@ nav {
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
-    padding: 0;
+    padding: 3px 0;
+    img{
+      height: 58px;
+      width: auto;
+    }
 
     &.center {
       left: 50%;
