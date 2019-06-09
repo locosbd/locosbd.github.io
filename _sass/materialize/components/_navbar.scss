@@ -2,6 +2,7 @@
   position: fixed;
   background-color: white !important;
   border-bottom: 3px solid #4acde2;
+  z-index: 999;
 }
 nav {
   &.nav-extended {
