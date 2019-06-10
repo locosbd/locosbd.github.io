@@ -20,32 +20,8 @@ layout: default
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
+        <h1>Who we are</h1>
+        <p>LoCOS-Loving Care for the Oppressed Society, founded in 1998 by some concerned, dedicated and humanitarian social workers, development practitioners and benevolent local youths, has been working and contributing for a comprehensive and sustainable development for the underprivileged, marginalized and disaster-hit people of the Southwest Region of Bangladesh. This organization focuses and emphasizes on the activities that are conducive to reducing poverty; ensuring food security, health and education; building self-confidence of the community’s occupationally marginalized rural poor people by arranging technical support for income generating activities; establishing equal rights for men and women; raising issue based awareness; and guaranteeing sustainable agriculture through biodiversity conservation involving local community in the shape of non-profit, non-government and voluntary approach.</p>
       </div>
 
     </div>
@@ -54,15 +30,14 @@ layout: default
     <div style="background: #ddd">
     <div class="container last-post">
     <section>
-        <h5>Latest Post</h5>
+        <h5>Projects</h5>
         <ul class="collection">
-        {% for post in site.posts %}
+        {% for post in site.categories.project %}
         <li class="collection-item avatar">
-          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post">{{ post.date | date: date_format }}</div>
+          
           <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
           <p>
-             {{ post.content | truncatewords: 10 }}
+             {{ post.content | truncatewords: 40 }}
           </p>
           <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
