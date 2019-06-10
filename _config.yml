@@ -18,4 +18,4 @@ twitter_username:
 github_username: 
 sass:
   style: compressed
-category_dir: "/categories"
+category_dir: categories
