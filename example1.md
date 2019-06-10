@@ -1,6 +1,6 @@
 ---
 title: About Us
-permalink: "/Buttoms/"
+permalink: "/about-us/"
 layout: page
 ---
 
