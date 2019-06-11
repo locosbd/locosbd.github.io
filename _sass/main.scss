@@ -89,6 +89,7 @@ p.rss-subscribe {
 main{
     width: 100%;
     top: 0 !important;
+    padding: 0 !important;
 }
 
 .page-footer{
@@ -105,12 +106,12 @@ main{
     min-height: 100vh;
 }
 
-#index-banner{
+.sec-home{
     height: 100vh;
     width: 100%;
 }
 
-#section-img-1{
+.section-img{
     height: 100%; 
     width: 100%; 
     object-fit: cover; 
