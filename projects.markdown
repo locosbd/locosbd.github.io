@@ -7,7 +7,6 @@ layout: page
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
 ## **Ongoing Projects:**
-<ul>
 {% for post in site.categories.Ongoing %}
 <li>
           <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
@@ -17,4 +16,4 @@ layout: page
           <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
        </li> 
         {% endfor %}
-       </ul>
+   
