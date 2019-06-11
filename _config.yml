@@ -19,3 +19,4 @@ github_username:
 sass:
   style: compressed
 category_dir: categories
+permalink: /:categories/:title/
