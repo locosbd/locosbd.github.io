@@ -2,9 +2,6 @@
 title: LoCOS
 timezone: UTC
 collections:
-  ongoing:
-    title: Ongoing
-    output: true
   posts:
     title: Posts
     output: true
