@@ -6,12 +6,12 @@ layout: page
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
-**Postal Address:** Village: Gangarampur, P.O.: KatiananglaUpazilla: Batiaghata, District: Khulna, Bangladesh.
+<p>**Postal Address:** Village: Gangarampur, P.O.: KatiananglaUpazilla: Batiaghata, District: Khulna, Bangladesh.</p>
 
-**Telephone/Mobile no.:** \+880 1716704110
+<p>**Telephone/Mobile no.:** \+880 1716704110</p>
 
-**E-mail ID:** locosdeb@yahoo.com
+<p>**E-mail ID:** locosdeb@yahoo.com</p>
 
-**Website:** www.locosbd.org
+<p>**Website:** www.locosbd.org</p>
 
-**Contact Person & Designation:** Deb ProsadSarker, Executive Director
+<p>**Contact Person & Designation:** Deb ProsadSarker, Executive Director</p>
