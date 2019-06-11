@@ -17,4 +17,4 @@ layout: page
           <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
        </li> 
         {% endfor %}
-       </u>
+       </ul>
