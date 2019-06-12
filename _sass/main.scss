@@ -152,6 +152,9 @@ main{
     background-size: cover;
     background-position: center;
     .container{
-        background: rgba(255, 255, 255, .4);
+        background: rgba(0, 0, 0, .5);
+        float: right;
+        padding: 20px;
+        color: white;
     }
 }
