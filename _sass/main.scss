@@ -3,6 +3,24 @@
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
+h1{
+    font-size: 3em !important;
+}
+h2{
+    font-size: 2.5em !important;
+}
+h3{
+    font-size: 2em !important;
+}
+h4{
+    font-size: 1.8em !important;
+}
+h5{
+    font-size: 1.5em !important;
+}
+h6{
+    font-size: 1.4em !important;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -128,4 +146,12 @@ main{
     width: 100%;
     text-align: center;
     margin-top: 25vh;
+}
+#about-us{
+    background: url(images/P_20181110_120501_1_1-min.jpg);
+    background-size: cover;
+    background-position: center;
+    .container{
+        background: rgba(255, 255, 255, .4);
+    }
 }
