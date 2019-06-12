@@ -158,3 +158,16 @@ main{
         color: white;
     }
 }
+
+@media(max-width: 990px){
+    #about-us{
+        .container{
+            float: none;
+        width: 70%;
+        padding: 20px;
+        margin: auto;
+        color: white;
+        }
+    }
+        
+}
