@@ -107,14 +107,23 @@ main{
 }
 
 .sec-home{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding: 0 !important;
 }
 
-.section-img{
-    height: 100%; 
-    width: 100%; 
-    object-fit: cover; 
-    object-position: center;
+
+
+#index-banner{
+    background: url(images/Seed_germination-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-navigator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 25vh;
 }
