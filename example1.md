@@ -12,27 +12,27 @@ layout: page
 
 **Table of content**
 
-<small>
+<ol>
 
-1. [Vision](#vision)
+<li><a href="#vision">Vision</li>
 
-2. [Mission Statement](#mission)
+<li><a href="#mission">Mission Statement</li>
 
-3. [Aims/Objectives](#aims)
+<li><a href="#aims">Aims/Objectives</li>
 
-4. [Core values](#values)
+<li><a href="">Core values</li>
 
-5. [Programming Focus](#focus)
+<li><a href="#focus">Programming Focus</li>
 
-6. [Governance](#governance)
+<li><a href="#governance">Governance</li>
 
-7. [Coverage](#coverage)
+<li><a href="#coverage">Coverage</li>
 
-8. [Partners](#partners)
+<li><a href="#partners">Partners</li>
 
-9. [Networks](#networks)
+<li><a href="#networks">Networks</li>
 
-</small>
+</ol>
 
 </div>
 
@@ -100,15 +100,15 @@ Loco has been operating multi-faceted development programs with a view to uplift
 
 * Women empowerment.
 
-* Human rights and Good Governance**.**
+* Human rights and Good Governance\*\*.\*\*
 
-* Community resilience capacity on emergency response**.**
+* Community resilience capacity on emergency response\*\*.\*\*
 
 <h4 id="governance">Governance</h4>
 
-**General Committee: **General Body consists of 21 members; among which 9 are women. The body meets once a year to follow-up and approves activity reports, accounts as per audit reports and budget, plans and programs. The General Body also elects an Executive Committee of 7 members for a term of two years.
+\*\*General Committee: \*\*General Body consists of 21 members; among which 9 are women. The body meets once a year to follow-up and approves activity reports, accounts as per audit reports and budget, plans and programs. The General Body also elects an Executive Committee of 7 members for a term of two years.
 
-**Executive Committee: **The executive Committee consists of 7 members; among which 2 are women. The committee meets at least 4 times a year to discuss and approve periodical plans, programs, performance and achievement reports, statement of accounts, administration etc. The current executive members are as follows
+\*\*Executive Committee: \*\*The executive Committee consists of 7 members; among which 2 are women. The committee meets at least 4 times a year to discuss and approve periodical plans, programs, performance and achievement reports, statement of accounts, administration etc. The current executive members are as follows
 
 **1. Gouranga Nandy**
 
@@ -152,7 +152,7 @@ Executive Member
 
 Vill: Gangarampur, Batiaghata, Khulna.
 
-**Advisory committee: **LoCOS have also an advisory committee consisting of 3 members. This committee guides all the activities of the organization
+\*\*Advisory committee: \*\*LoCOS have also an advisory committee consisting of 3 members. This committee guides all the activities of the organization
 
 <h4 id="coverage">Coverage</h4>
 
