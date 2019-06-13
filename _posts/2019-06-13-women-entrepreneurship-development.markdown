@@ -3,6 +3,7 @@ title: Women Entrepreneurship Development
 date: 2019-06-13 07:57:00 Z
 categories:
 - Ongoing
+- Project
 ---
 
 [DSC05023.JPG](/uploads/DSC05023.JPG)
