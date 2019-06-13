@@ -1,6 +1,8 @@
 ---
 title: Vulnerable Group Development (VGD)
 date: 2019-06-13 07:48:00 Z
+categories:
+- Project
 ---
 
 ![P_20181108_104612.jpg](/uploads/P_20181108_104612.jpg)
