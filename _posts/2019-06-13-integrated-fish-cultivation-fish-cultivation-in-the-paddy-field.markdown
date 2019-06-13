@@ -3,6 +3,7 @@ title: 'Integrated Fish Cultivation (Fish Cultivation in the Paddy Field):'
 date: 2019-06-13 07:43:00 Z
 categories:
 - Project
+- Ongoing
 ---
 
 [DSC00221.JPG](/uploads/DSC00221.JPG)
