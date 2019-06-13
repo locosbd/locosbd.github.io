@@ -6,5 +6,5 @@ categories:
 - Ongoing
 ---
 
-[DSC00221.JPG](/uploads/DSC00221.JPG)
+![DSC00221.JPG](/uploads/DSC00221.JPG)
 Integrated Fish cultivation program is funded by Bangladesh NGO’s foundation. Under this project LoCOS has provided training for 50 farmers of three unions of Batiaghata Upazilla. The training has been provided by the expert from Upazilla fisheries centre. 
