@@ -1,0 +1,21 @@
+---
+title: News
+date: 2019-06-13 15:34:00 Z
+permalink: "/news/"
+layout: page
+---
+
+<h1 class="page-title">{{ page.title | escape }}</h1>
+
+<ul class="collection">
+   {% for post in site.categories.News %}
+   <li class="collection-item avatar">
+
+          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}"><h4>{{ post.title | escape }}</h4></a></span>
+          <p>
+             {{ post.content | truncatewords: 40 }}
+          </p>
+          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+   </li>
+   {% endfor %}
+</ul>  
