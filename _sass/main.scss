@@ -135,6 +135,9 @@ main{
     width: 100%;
     padding: 0 !important;
     border-bottom: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -150,7 +153,7 @@ main{
     justify-content: center;
     width: 100%;
     text-align: center;
-    margin-top: 175px;
+    margin-bottom: 30px;
 }
 #about-us{
     background: url(images/P_20181110_120501_1_1-min.jpg);
