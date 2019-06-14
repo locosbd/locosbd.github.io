@@ -1,7 +1,7 @@
 ---
 title: Up scaling Managed Aquifer Recharge for Providing Community Water Supply in
   Saline Areas
-date: 2019-06-11 02:11:00 Z
+date: 2019-06-12 02:11:00 Z
 categories:
 - Project
 - Ongoing
