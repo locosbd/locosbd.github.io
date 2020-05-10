@@ -1,18 +1,56 @@
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
 
-  
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/materialize.css" | relative_url }}" />
+    <link rel="stylesheet" type="text/css" media="screen,projection"
+        href="{{ "/assets/materialize.css" | relative_url }}" />
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}" />
-  
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+        href="{{ "/feed.xml" | relative_url }}" />
+    <script src="https://kit.fontawesome.com/5062bee7b2.js" crossorigin="anonymous"></script>
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
+    <style>
+        .overlay {
+            height: 100%;
+            width: 100%;
+            display: none;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 46%;
+            width: 80%;
+            text-align: center;
+            margin-top: 30px;
+            margin: auto;
+        }
+
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .overlay .closebtn:hover {
+            color: #ccc;
+        }
+    </style>
 </head>

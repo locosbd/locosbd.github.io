@@ -33,7 +33,24 @@
       <li><a href="{{  site.url }}/contact-us">Contact Us</a></li>
 
     </ul>
-
+    <button onclick="openSearch()"><i class="fas fa-search"></i></button>
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>
 </nav>
+<script async src="https://cse.google.com/cse.js?cx=011914296686239777637:vk3lvzg6tkg"></script>
+
+<div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close">×</span>
+  <div class="overlay-content">
+    <div class="gcse-search"></div>
+  </div>
+</div>
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
